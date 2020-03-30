@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang ="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta name="description" content="Photography, pictures, camera, nature, landscape">
+        <meta name="Author" content="Cormac McManus">
+        <title> PicBox </title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32X32" />
+    </head>
+    <body>
+        <header>
+             <nav>
+                <ul>
+                    <li> <a id="logo" ></a><img style="float: left; position: relative; right: 55px; bottom: 20px; height: 112px; width: 170px;" src=images/logo.png> </li>
+                    <li> <a class="name"></a><h1 style="float: left; position: relative; right: 170px; bottom: 65px; font-size: 4.5em; font-family: open sans" >PicBox</h1></li>
+                    <li> <a href="index.html">HOME</a></li>
+                    <li> <a href="categories.html">CATEGORIES</a></li>
+                    <li> <a href="photographers.html">PHOTOGRAPHERS</a></li>
+                    <li> <a class="active" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            
+               <section style="background-color: white; background-image: none; max-width:500px;">
+                   <section style="position: relative; bottom: 90px;">
+                   
+                    
+                    <h3 style="color: black;"> Please enter the following information:</h3>
+                
+                    <form action="http://year1.ccpdev.me/FormTest.php" method="post">
+                    
+                    <label style="color: black;" for="first_name">First Name:<span class="required"></span></label>
+                    <input style="color: black;" type="text" name="first name" id="first_name" autofocus required><br>
+                    <label style="color: black;" for="last_name">Last name:<span class="required">*</span></label>
+                    <input style="color: black;" type="text" name="last_name" id="last_name" required><br>
+                    <label style="color: black;" for="email">Email:<span class="required">*</span></label>
+                    <input style="color: black;" type="email" name="email" id="email" required placeholder="johndoe@example.com"> 
+                    <br>
+                    <label style="color: black;" for="gender">Gender :</label>
+                    <input style="color: black;" type="radio" id= "gender" name="gender" value="male"> Male 
+                    <input style="color: black;" type="radio" id= "gender" name="gender" value="female"> Female 
+                    <input style="color: black;" type="radio" id= "gender" name="gender" value="other" checked> Other <br> 
+                    
+                    
+                    <label style="color: black;" for ="internet" style="color: black;"> What is your query in relation to?</label>
+                    <fieldset>
+                        <input style="color: black;" type="checkbox" id="internet" name="internet" value="internet" checked> Report a bug <br>
+                        <input style="color: black;" type="checkbox" class="marginl" id="hear" name="paper" value="paper"> Complaint <br>
+                        <input style="color: black;" type="checkbox" class="marginl" id="hear" name="friend" value="friend"> General Question <br>
+                        <input style="color: black;" type="checkbox" class="marginl" id="hear" name="Add" value="Add"> Others <br>                        
+                    </fieldset>
+                    <br>
+                    <label style="color: black;" for="message">Query : </label>
+                    
+                    <textarea cols="40"rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                    
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                    
+                </form>
+                <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required field </em></p>
+                       </section>
+            </section>
+            
+            
+            
+            <section>
+                <h2 class="contactText" style=" font-size: 4em; position: relative; bottom: 600px; left: 400px;"> Please fill in our contact form</h2>
+                
+                <h2 class="contactText" style="font-size: 3em; position: relative; bottom: 750px; left: 750px;"><i>We'll get back to you as soon as possible...</i></h2>
+            </section>
+            
+        </main>
+        
+        <footer>
+             <ul>
+                 <li> <a class="navbuttons" href="Index.html">HOME</a></li>
+                 <li> <a class="navbuttons"href="categories.html">CATEGORIES</a></li>
+                 <li> <a class="navbuttons"href="photographers.html">PHOTOGRAPHERS</a></li>
+                 <li> <a class="active"href="contact.html">CONTACT</a></li>
+             </ul>
+            
+            <p id="footerText">Copyright 2020 Cormac McManus</p>
+        </footer>
+    </body>
+</html>

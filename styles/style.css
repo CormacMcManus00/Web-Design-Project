@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html{
+    
+}
+body{
+    background-color: #0B0C10;
+    background-image: url("BackgroundImage.jpg");
+    background-repeat: no-repeat;
+}
+main{
+    color: #C5C6C7;
+    width: 100%;
+}
+.catheadingsone{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px 4px #000000;
+    position: relative;
+    font-size: 6em;
+    font-weight:thin;
+    right: 580px;
+    bottom: 80px;
+}
+.catheadingstwo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px 4px #000000;
+    position: relative;
+    font-size: 6em;
+    font-weight:thin;
+    right: 120px;
+    bottom: 80px;
+}
+.catheadingsthree{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px 4px #000000;
+    position: relative;
+    font-size: 6em;
+    font-weight:thin;
+    top: 150px;
+}
+.name{
+    position: relative;
+    float: left; 
+    left: 90px;
+}
+#logo{
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+header{
+    font-family: open sans, sans-serif;
+    color: #C5C6C7;
+}
+nav{
+    margin: 0px;
+    background-color: #0B0C10;
+    padding: 20px;
+    text-decoration: bold;
+}
+nav ul{
+    font-family: open sans light, sans-serif;
+    text-align: center;
+    font-size: 1.0em;
+    position: relative;
+    bottom: 15px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline;
+}
+nav ul li a{
+    color: #C5C6C7;
+    text-decoration: none;
+    margin: 60px;
+    font-size: 1.9em;
+    color: #C5C6C7;
+    position: relative;
+    right: 200px;
+    top: 20px;
+}
+nav ul li a:hover{
+    color: dimgrey;
+}
+.maintext{
+    position: relative;
+    color: white;
+    font-family: open sans light, sans-serif;
+    font-size: 5em;
+    padding-left: 120px;
+}
+.active{
+    color: #66FCF1;
+}
+h2{
+    position: relative;
+    float: left;
+    color: white;
+    font-family: open sans light, sans-serif;
+    font-size: 7em;
+    padding-left: 125px;
+    padding-bottom: 60px;
+    bottom: 120px;
+}
+.paragraphone{
+    position: relative;
+    color: white;
+    font-family: open sans light, sans-serif;
+    font-size: 1.5em;
+    padding-left: 100px;
+
+}
+#PanoramicOne{
+    position: relative;
+    width: inherit;
+    bottom: 115px;
+    max-height: 20%;
+}
+.contactText{
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
+}
+footer{
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    background-color: #0B0C10;
+    padding: 10px;
+    text-decoration: none;
+}
+footer ul{
+    font-family: open-sans, sans-serif;
+    text-decoration: none;
+}
+footer ul li{
+    position: relative;
+    display: inline;
+    text-decoration: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #C5C6C7;
+    font-size: 1.2em;
+    border: 30px;
+    padding: 50px;
+}
+footer ul li a:hover{
+    color: dimgrey;
+    border: 30px;
+}
+#footerText{
+    font-family: open-sans, sans-serif;
+    color: #C5C6C7;
+    font-size: 0.8em;
+}
